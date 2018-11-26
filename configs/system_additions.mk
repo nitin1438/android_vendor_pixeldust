@@ -153,3 +153,6 @@ PRODUCT_PACKAGES += \
     QStilePokesign \
     QStileWavey
 
+# Add prebuilt Nexus Launcher
+ PRODUCT_PACKAGES += \
+    NexusLauncherPrebuilt
