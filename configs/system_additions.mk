@@ -156,3 +156,7 @@ PRODUCT_PACKAGES += \
 # Add prebuilt Nexus Launcher
  PRODUCT_PACKAGES += \
     NexusLauncherPrebuilt
+
+# Add necessary permissions for Nexus Launcher
+PRODUCT_COPY_FILES += \
+    vendor/pixeldust/prebuilt/etc/permissions/permissions.xml:system/etc/permissions/permissions.xml
